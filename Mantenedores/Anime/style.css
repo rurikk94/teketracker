@@ -1,0 +1,18 @@
+<style>
+
+table {
+}
+
+td, th {
+    text-align: left;
+    padding: 8px;
+}
+
+td:hover {
+    background-color: #dddddd;
+}
+
+tr:nth-child(even) {
+    background-color: whitesmoke;
+}
+</style>

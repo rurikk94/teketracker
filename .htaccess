@@ -1,0 +1,10 @@
+#<Files .htaccess>
+#Options All -Indexes
+#Deny from All
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php  [NC,L]
+#</Files>
+# Do not remove this line or mod_rewrite rules and search engine friendly URLs will stop working
+RewriteBase /
